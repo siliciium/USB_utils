@@ -1,3 +1,7 @@
+<#
+   After converting USB org PDF file to TXT file using online converter ...
+#>
+
 $list = Get-Content -Encoding Utf8 -Path "usb_vids_080223.txt"
 
 $obj = [ordered]@{}
